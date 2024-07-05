@@ -17,16 +17,19 @@ nav {
     background-color: blueviolet;
 }
 
-.introduction {
+.header2 {
     background-color: rgb(34, 34, 179);
     min-height: 600px;
 }
 
-/* Header flex nav */
+/* Header nav */
 
 .flex-container {
-    min-height: 100px;
     display: flex;
+}
+
+.flex-container.header-nav {
+    min-height: 100px;
     align-items: center;
 }
 
@@ -51,6 +54,20 @@ nav {
     border: 2px dashed red;
     flex-basis: 20%;
     background-color: cadetblue;
+}
+
+/* Header Introduction */
+
+.flex-container.header-introduction {
+    align-items: center;
+    height: 600px;
+    
+}
+
+.header-copy {
+    background-color: pink;
+    height: 500px;
+    flex-basis: 100%;
 }
 
 /* Main */
