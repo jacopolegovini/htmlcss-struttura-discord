@@ -166,19 +166,21 @@
 .copy-affidability {
     background-color: red;
     width: 1500px;
-    flex-basis: 120px;
+    height: calc(120px - (50px / 3));
 }
 
 .img-affidability {
     background-color: orange;
     width: 1500px;
-    flex-basis: 360px;
+    height: calc(360px - (50px / 3));
+
 }
 
 .cta-affidability {
     background-color: yellow;
     width: 1500px;
-    flex-basis: 120px;
+    height: calc(120px - (50px / 3));
+
 }
 
 /* Footer */
