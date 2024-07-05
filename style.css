@@ -19,7 +19,7 @@ nav {
 
 .header2 {
     background-color: rgb(34, 34, 179);
-    min-height: 600px;
+    min-height: 550px;
 }
 
 /* Header nav */
@@ -34,7 +34,7 @@ nav {
 }
 
 .logo {
-    height: 40px;
+    height: 50px;
     border: 2px dashed red;
     flex-basis: 20%;
     background-color: cadetblue;
@@ -42,7 +42,7 @@ nav {
 }
 
 .link {
-    height: 40px;
+    height: 50px;
     border: 2px dashed red;
     flex-basis: 60%;
     background-color: cadetblue;
@@ -50,7 +50,7 @@ nav {
 }
 
 .login {
-    height: 40px;
+    height: 50px;
     border: 2px dashed red;
     flex-basis: 20%;
     background-color: cadetblue;
@@ -60,7 +60,7 @@ nav {
 
 .flex-container.header-introduction {
     align-items: center;
-    height: 600px;
+    height: 550px;
     
 }
 
@@ -71,3 +71,47 @@ nav {
 }
 
 /* Main */
+
+/* First section */
+
+.img-copy {
+    height: 600px;
+}
+
+.flex-container.img-copy {
+    align-items: center;
+}
+
+.img-flexibility {
+    background-color: aqua;
+    flex-basis: 60%;
+    height: 550px;
+}
+
+.copy-flexibility {
+    background-color: pink;
+    flex-basis: 40%;
+    height: 550px;
+}
+
+/* Second section */
+
+.copy-img {
+    height: 600px;
+}
+
+.flex-container.copy-img {
+    align-items: center;
+}
+
+.img-accessibility {
+    background-color: aqua;
+    flex-basis: 60%;
+    height: 550px;
+}
+
+.copy-accessibility {
+    background-color: pink;
+    flex-basis: 40%;
+    height: 550px;
+}
