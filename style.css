@@ -72,7 +72,7 @@ nav {
 
 /* Main */
 
-/* First section */
+/* Flexibility section */
 
 .img-copy {
     height: 600px;
@@ -94,7 +94,7 @@ nav {
     height: 550px;
 }
 
-/* Second section */
+/* Accessibility section */
 
 .accessibility {
     background-color: lightgray;
@@ -120,10 +120,10 @@ nav {
     height: 550px;
 }
 
-/* Third section */
+/* Community section */
 
 .img-copy {
-    height: 600px;
+    min-height: 600px;
 }
 
 .flex-container.img-copy {
@@ -140,4 +140,39 @@ nav {
     background-color: pink;
     flex-basis: 40%;
     height: 550px;
+}
+
+/* Affidability section */
+ 
+.affidability {
+    background-color: lightgray;
+    min-height: 600px;
+}
+
+.copy-img-cta {
+    height: 600px;
+}
+
+.flex-container.copy-img-cta {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.copy-affidability {
+    background-color: red;
+    width: 1000px;
+    flex-basis: 20%;
+}
+
+.img-affidability {
+    background-color: orange;
+    width: 1000px;
+    flex-basis: 60%;
+}
+
+.cta-affidability {
+    background-color: yellow;
+    width: 1000px;
+    flex-basis: 20%;
 }
