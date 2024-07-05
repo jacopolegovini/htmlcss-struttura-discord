@@ -96,6 +96,10 @@ nav {
 
 /* Second section */
 
+.accessibility {
+    background-color: lightgray;
+}
+
 .copy-img {
     height: 600px;
 }
@@ -111,6 +115,28 @@ nav {
 }
 
 .copy-accessibility {
+    background-color: pink;
+    flex-basis: 40%;
+    height: 550px;
+}
+
+/* Third section */
+
+.img-copy {
+    height: 600px;
+}
+
+.flex-container.img-copy {
+    align-items: center;
+}
+
+.img-community {
+    background-color: aqua;
+    flex-basis: 60%;
+    height: 550px;
+}
+
+.copy-community {
     background-color: pink;
     flex-basis: 40%;
     height: 550px;
